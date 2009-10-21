@@ -1,0 +1,21 @@
+RailsPolymorphicComments
+========================
+
+'Plymorphic' name itself implies that can be plugged with any type of resource.
+using this plugin one can observe how easy are using comments in rails.
+
+You can use polymorphic comments to any type of resource.
+resources types can be blog post, review, ideas, etc.
+
+
+How to use polymorphic comments ?
+===============================
+
+
+Example
+=======
+
+Example goes here.
+
+
+Copyright (c) 2009 [Sandip Ransing ( Fun On Rails )], released under the MIT license

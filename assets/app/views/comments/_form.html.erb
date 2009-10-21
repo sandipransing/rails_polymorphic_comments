@@ -1,0 +1,11 @@
+					<!-- Please do apply neccessary stylesheet as required -->
+					<div>
+					  <!-- Presently sending a html request -->
+						<span><strong>Leave your comment</strong></span>
+						      <% form_for @comment ||= Comment.new, :url => {:controller => 'comments', :action => 'create', :resource_id => @resource, :resource_type => "#{@resource.class}" }, :html => {:method => :post,  :builder => BbFormBuilder} do |f|%>
+							    <div>
+								<%= f.text_area "body", :value => "", :rows=> "5", :cols=> "30", :style=> "height:80px;width:365px;"%>
+							    </div>
+							    <%= submit_tag "Post your Comment", :title => "Post your Comment" %>
+						      <% end %>
+					</div>

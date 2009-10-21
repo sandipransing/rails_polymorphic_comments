@@ -1,0 +1,10 @@
+<div class="comments-cont">
+  <div id='comments' >
+    <%= render :partial => "comment", :collection => @comments %>
+  </div> 
+  <%= will_paginate @comments, :inner_window => 1, :outer_window => 0 %>
+</div>
+<div id='form' class="box-grey box-grey-full">
+  <%= render :partial => "comments/form" %>
+</div>
+<div class="clear"></div>

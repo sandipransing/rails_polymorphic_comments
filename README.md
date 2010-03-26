@@ -1,4 +1,5 @@
-#Rails Polymorphic Comments
+Rails Polymorphic Comments
+===============
 
 Easily pluggable comments module
 ------------

@@ -1,5 +1,7 @@
 #Rails Polymorphic Comments
 
+## Easily pluggable comments module
+
 *Plymorphic* name itself implies that can be plugged with any type of resource.
 using this plugin one can observe how easy are using comments in rails.
 
